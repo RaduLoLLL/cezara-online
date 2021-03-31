@@ -3,7 +3,9 @@ import Image from "next/image";
 export default function Main() {
   return (
     <div>
-      <Image src="/Pattern.svg" width={1920} height={440} />
+      <div className="hidden lg:block">
+        <Image src="/Pattern.svg" width={1920} height={440} />
+      </div>
 
       <div className="flex flex-col-reverse lg:flex-row">
         <div className=" w-100 lg:w-4/12">

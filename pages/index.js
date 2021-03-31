@@ -15,7 +15,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </div>
-      <div className=" bg-yellow-400 pb-16">
+      <div className=" bg-yellow-400 pb-16 pt-10 lg:pt-0">
         <Main />
       </div>
     </div>
