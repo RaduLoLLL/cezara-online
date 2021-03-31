@@ -7,7 +7,7 @@ export default function Main() {
 
       <div className="flex flex-col-reverse lg:flex-row">
         <div className=" w-100 lg:w-4/12">
-          <div className="flex ml-20 mt-20 items-center">
+          <div className="flex ml-5 lg:ml-20 mt-20 items-center">
             <div>
               <Image src="/Num1.svg" width={300} height={300} />
             </div>
@@ -19,7 +19,7 @@ export default function Main() {
               </p>
             </div>
           </div>
-          <div className="flex ml-20 mt-20 items-center">
+          <div className="flex ml-5 lg:ml-20 mt-20 items-center">
             <div>
               <Image src="/Num2.svg" width={300} height={300} />
             </div>
@@ -31,7 +31,7 @@ export default function Main() {
               </p>
             </div>
           </div>
-          <div className="flex ml-20 mt-20 items-center">
+          <div className="flex ml-5 lg:ml-20 mt-20 items-center">
             <div>
               <Image src="/Num3.svg" width={300} height={300} />
             </div>
@@ -44,7 +44,7 @@ export default function Main() {
             </div>
           </div>
         </div>
-        <div className="flex-1 flex flex-col justify-center items-center mt-10 lg:-mt-20">
+        <div className="flex-1 flex flex-col justify-center text-center items-center mt-10 lg:-mt-20">
           <h2 className="text-5xl">Bun Venit</h2>
           <h2 className="text-7xl font-semibold mt-5 mb-5">
             În Cămara Noastră
