@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.body + " h-screen px-10 py-5 relative"}>
+      <div className={styles.body + " min-h-screen px-10 py-5 relative"}>
         <Navbar />
         <Hero />
       </div>
