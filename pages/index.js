@@ -27,6 +27,7 @@ export default function Home({ products }) {
       </div>
       <div>
         <Magazin products={products} />
+        wtf
       </div>
     </div>
   );
