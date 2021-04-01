@@ -1,4 +1,4 @@
-export const API_URL =
+/*export const API_URL =
   process.env.NEXT_PUBLIC_API_URL || "http://localhost:1337";
 
 export const fromImageToUrl = (image) => {
@@ -12,3 +12,4 @@ export const fromImageToUrl = (image) => {
 
   return image.url;
 };
+*/

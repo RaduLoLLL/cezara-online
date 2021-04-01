@@ -1,8 +1,7 @@
-import { API_URL } from "../utils/urls";
 import Image from "next/image";
 import React from "react";
-function Magazin({ products }) {
-  console.log(products);
+function Magazin() {
+  //console.log(products);
   return (
     <div>
       <div className="block ">

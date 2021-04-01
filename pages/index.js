@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 import Main from "../components/Main";
 import Features from "../components/Features";
 import Magazin from "../components/Magazin";
-import { API_URL } from "../utils/urls";
+//import { API_URL } from "../utils/urls";
 export default function Home({ products }) {
   return (
     <div>
@@ -33,6 +33,7 @@ export default function Home({ products }) {
   );
 }
 
+/*
 export async function getServerSideProps() {
   const products_res = await fetch(`${API_URL}/produses`);
   const products = await products_res.json();
@@ -42,3 +43,4 @@ export async function getServerSideProps() {
     },
   };
 }
+*/
