@@ -3,7 +3,10 @@ import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
 import Hero from "../components/Hero";
 import Main from "../components/Main";
-export default function Home() {
+import Features from "../components/Features";
+import Magazin from "../components/Magazin";
+import { API_URL } from "../utils/urls";
+export default function Home({ products }) {
   return (
     <div>
       <Head>
@@ -15,9 +18,26 @@ export default function Home() {
         <Navbar />
         <Hero />
       </div>
-      <div className=" bg-yellow-400 pb-16 pt-10 lg:pt-0">
+
+      <div className=" bg-yellow-400 pt-10 lg:pt-0 ">
         <Main />
+      </div>
+      <div className={`${styles.featuresBg}`}>
+        <Features />
+      </div>
+      <div>
+        <Magazin products={products} />
       </div>
     </div>
   );
+}
+
+export async function getServerSideProps() {
+  const products_res = await fetch(`${API_URL}/produses`);
+  const products = await products_res.json();
+  return {
+    props: {
+      products,
+    },
+  };
 }
