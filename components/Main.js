@@ -54,7 +54,8 @@ export default function Main() {
           </div>
         </div>
         <div className="flex-1 flex flex-col justify-center text-center items-center mt-10 lg:-mt-20 lg:ml-10 px-10">
-          <h2 className={`text-xl xl:text-5xl lg:text-3xl`}>Bun Venit</h2>
+          {/*<h2 className={`text-xl xl:text-5xl lg:text-3xl`}>Bun Venit</h2>*/}
+          <Image src="/bunVenit.svg" width={405} height={198} />
           <h2 className="text-3xl lg:text-5xl xl:text-7xl font-semibold mt-5 mb-5">
             În Cămara Noastră
           </h2>
