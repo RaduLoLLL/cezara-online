@@ -10,7 +10,7 @@ export default function Hero() {
         finibus dapibus. Maecenas non efficitur orci, eget lobortis sapien.
         Curabitur elit quam, gravida quis leo ut, tempor aliquam elit.
       </p>
-      <button className="text-3xl mt-20 bg-blue-700 py-2 px-14 rounded-3xl animate-bounce lg:animate-none">
+      <button className="text-3xl mt-20 bg-blue-700 py-2 px-14 rounded-2xl animate-bounce lg:animate-none">
         Cumpara!
       </button>
     </div>

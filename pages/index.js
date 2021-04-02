@@ -6,6 +6,7 @@ import Main from "../components/Main";
 import Features from "../components/Features";
 import Magazin from "../components/Magazin";
 import { API_URL } from "../utils/urls";
+import Footer from "../components/Footer";
 export default function Home({ products }) {
   return (
     <div>
@@ -27,6 +28,9 @@ export default function Home({ products }) {
       </div>
       <div>
         <Magazin products={products} />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
