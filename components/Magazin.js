@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-function Magazin() {
-  //console.log(products);
+function Magazin({ products }) {
+  console.log(products);
   return (
     <div>
       <div className="block ">
