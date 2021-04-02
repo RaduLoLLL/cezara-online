@@ -14,7 +14,7 @@ function Magazin({ products }) {
         <h2 className="text-3xl lg:text-5xl xl:text-7xl font-semibold mt-5 mb-5">
           Produse Favorite
         </h2>
-        <div className="flex flex-col lg:flex-row justify-between mt-20 lg:mt-32">
+        <div className="flex flex-col lg:flex-row lg:justify-between mt-20 lg:mt-32">
           {products.map((product) => {
             return <Product product={product} />;
           })}
