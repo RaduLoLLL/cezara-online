@@ -7,7 +7,7 @@ function Magazin({ products }) {
   return (
     <div className="pb-32 -mx-10">
       <div className="">
-        <Image src="/wave.svg" width={1920} height={320} />
+        <Image src="/wave1.svg" width={1920} height={320} />
       </div>
       <div className="flex flex-col items-center mt-20">
         <h2 className="text-xl xl:text-5xl lg:text-3xl">Magazinul Nostru</h2>
