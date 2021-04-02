@@ -5,8 +5,8 @@ function Magazin({ products }) {
   products.length = 4;
   console.log(products);
   return (
-    <div className="pb-32">
-      <div className="block ">
+    <div className="pb-32 -mx-10">
+      <div className="">
         <Image src="/wave.svg" width={1920} height={320} />
       </div>
       <div className="flex flex-col items-center mt-20">
