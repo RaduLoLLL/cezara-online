@@ -26,10 +26,10 @@ export default function Home({ products }) {
       <div className={`${styles.featuresBg}`}>
         <Features />
       </div>
-      <div>
+      <div className="bg-red-700">
         <Magazin products={products} />
       </div>
-      <div>
+      <div className="bg-red-700">
         <Footer />
       </div>
     </div>
