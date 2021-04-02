@@ -9,7 +9,7 @@ export default function Product({ product }) {
       </div>
       <h2 className="text-3xl">{product.Nume}</h2>
       <h3 className={`${styles.red} mt-5 text-2xl`}>{product.Pret}LEI</h3>
-      <button className="mt-10 text-3xl text-white bg-yellow-500 py-2 px-5 rounded-2xl">
+      <button className="mt-10 text-3xl text-white bg-yellow-500 py-2 px-5 lg:px-5 rounded-2xl">
         Cumpara
       </button>
     </div>
