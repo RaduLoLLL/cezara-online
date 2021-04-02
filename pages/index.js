@@ -30,10 +30,10 @@ export default function Home({ products }) {
       <div>
         <Magazin products={products} />
       </div>
+      */}
       <div>
         <Footer />
       </div>
-      */}
     </div>
   );
 }
