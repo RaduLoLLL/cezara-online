@@ -14,7 +14,7 @@ export default function Footer() {
           <Image src="/phone.svg" width={70} height={70} />
           <h3 className="text-2xl font-light ml-5">+(40) 75 112 0810</h3>
         </div>
-        <div className="flex items-center lg:mx-12 my-10 lg:my-0">
+        <div className="flex ml-5 lg:ml-0 items-center lg:mx-12 my-10 lg:my-0">
           <Image src="/email1.svg" width={70} height={70} />
           <h3 className="text-2xl font-light ml-5">
             contact@cezaraconstruct.com
