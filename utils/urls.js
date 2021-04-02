@@ -1,4 +1,4 @@
-export const API_URL = process.env.NEXT_PUBLIC_API_URL;
+export const API_URL = "https://cezara-online-backend.herokuapp.com";
 
 export const fromImageToUrl = (image) => {
   if (!image) {
