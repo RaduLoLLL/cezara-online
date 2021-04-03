@@ -1,8 +1,8 @@
 module.exports = {
-  env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
-  },
   images: {
-    domains: ["cezara-online-backend.herokuapp.com"],
+    domains: [
+      "https://cezara-backend.herokuapp.com",
+      "cezara.s3.eu-west-3.amazonaws.com",
+    ],
   },
 };

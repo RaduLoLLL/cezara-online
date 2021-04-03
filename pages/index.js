@@ -29,6 +29,7 @@ export default function Home({ products }) {
       <div>
         <Magazin products={products} />
       </div>
+
       <div>
         <Footer />
       </div>
@@ -37,11 +38,27 @@ export default function Home({ products }) {
 }
 
 export async function getServerSideProps() {
-  const products_res = await fetch(`${API_URL}/produses`);
-  const products = await products_res.json();
+  let products = [];
+  let error = "";
+  try {
+    const products_res = await fetch(`${API_URL}/produses`, {
+      method: "GET",
+      headers: {
+        // update with your user-agent
+        "User-Agent":
+          "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36",
+        Accept: "application/json; charset=UTF-8",
+      },
+    });
+    products = await products_res.json();
+  } catch (e) {
+    error = e.toString();
+  }
+
   return {
     props: {
       products,
+      error,
     },
   };
 }

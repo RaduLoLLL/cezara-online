@@ -1,5 +1,6 @@
-export const API_URL = "https://cezara-online-backend.herokuapp.com";
+export const API_URL = "https://cezara-backend.herokuapp.com";
 
+/*
 export const fromImageToUrl = (image) => {
   if (!image) {
     return "/honey.png";
@@ -11,3 +12,4 @@ export const fromImageToUrl = (image) => {
 
   return image.url;
 };
+*/
