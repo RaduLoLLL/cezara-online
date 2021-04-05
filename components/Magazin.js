@@ -6,7 +6,7 @@ function Magazin({ products }) {
   return (
     <div className="pb-32">
       <div className="flex flex-col items-center mt-20">
-        <Image src="/magazinul.svg" width={512} height={96} />
+        <Image src="/magazinul.png" width={512} height={96} />
 
         <h2 className="text-3xl lg:text-5xl xl:text-7xl font-semibold mt-5 mb-5">
           Produse Favorite
